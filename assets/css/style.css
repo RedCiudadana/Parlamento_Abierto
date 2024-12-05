@@ -3954,7 +3954,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .menu-link div:hover{
-  color: #03ac8a;
+  color: #356eb2;
 }
 
 .menu-item.sub-menu > .menu-link > div {
@@ -19623,7 +19623,7 @@ label.checkbox {
 .linea-verde{
   height: 5px;
   width: 100%;
-  border-bottom: 1px solid #03ac8a;
+  border-bottom: 1px solid #356eb2;
   margin-bottom: 20px;
 }
 
@@ -19651,7 +19651,7 @@ label.checkbox {
 }
 
 .tabla_contenidos_a:hover{
-  color: #03ac8a;
+  color: #356eb2;
 }
 
 .centered-between{
@@ -19661,7 +19661,7 @@ label.checkbox {
 }
 
 .btn{
-  background-color: #03ac8a;
+  background-color: #356eb2;
   color: #fff!important;
   transition: all ease 0.5s;
   border-radius: 5px;
@@ -19670,7 +19670,7 @@ label.checkbox {
 }
 
 .btn:hover{
-  background-color: #03324e;
+  background-color: #2e5f99;
 }
 
 /* Puntos de interes del slider */
@@ -19843,7 +19843,7 @@ label.checkbox {
 }
 
 .cuadro_plataformas:hover{
-  background-color: #03ac8a;
+  background-color: #326fb3;
 }
 
 .cuadro_plataformas:hover .hover_white{
@@ -19854,10 +19854,87 @@ label.checkbox {
   color: #fff!important;
 }
 
+.cuadro_plataformas2{
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 10%;
+  border-radius: 15px;
+  transition: 0.5s;
+  height: 100%;
+}
+
+.cuadro_plataformas2 h2{
+  margin-bottom: 5px;
+}
+
+.cuadro_plataformas2 img{
+  margin: auto;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.cuadro_plataformas2 p{
+  color: #073753!important;
+}
+
+.cuadro_plataformas2:hover{
+  background-color: #326fb3;
+}
+
+.cuadro_plataformas2:hover .hover_white{
+  color: #fff!important;
+}
+
+.cuadro_plataformas2:hover p{
+  color: #fff!important;
+}
+
 .overflow_5 {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;  
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.cuadro_recurso img{
+  width: 100%;
+  height: auto;
+}
+
+.cuadro_recurso .cuadro_recurso_content{
+  background-color: #fff;
+  padding: 50px;
+}
+
+.cuadro_recurso h1{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.cuadro_recurso p{
+ margin-bottom: 10px;
+}
+
+.cuadro_recurso2{
+  display: flex;
+}
+
+.cuadro_recurso2 img{
+  width: 100%;
+  height: auto;
+}
+
+.cuadro_recurso2 .cuadro_recurso_content{
+  background-color: #fff;
+  padding: 50px;
+}
+
+.cuadro_recurso2 h1{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.cuadro_recurso2 p{
+ margin-bottom: 10px;
 }
