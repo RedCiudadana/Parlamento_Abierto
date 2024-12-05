@@ -6116,28 +6116,52 @@ body:not(.top-search-open)
 
 
 .slider-element {
-  position: relative;
+  position: relative; /* Necesario para posicionar elementos hijos de manera absoluta */
   width: 100%;
   overflow: hidden;
-  background-image: url('/assets/img/slider/slider-final.png');
-  background-size:cover;
 }
 
-.h-100-res{
-  height: 600px;
+.slider-element img {
+  width: 100%;
+  height: auto;
 }
 
-@media (max-width:400px){
-  .slider-element {
-    background-image: url('/assets/img/slider/slider-home-movil.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .h-100-res{
-    height: 500px;
-  }
+.overlay-content {
+  position: absolute;
+  top: 50%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajustar para centrar exacto */
+  text-align: center;
+  color: white; /* Contraste contra la imagen */
 }
+
+.overlay-content h1 {
+  font-size: 2rem; /* Ajusta el tamaño según sea necesario */
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.overlay-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.overlay-content a {
+  background-color: #356fb3; /* Color del botón */
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s all ease;
+}
+
+.overlay-content a:hover {
+  background-color: #2e5f99; /* Color al pasar el cursor */
+}
+
 
 .slider-parallax {
   position: relative;
