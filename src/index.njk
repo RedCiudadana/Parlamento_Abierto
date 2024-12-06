@@ -139,5 +139,20 @@ permalink: "index.html"
 {% endblock %}
 
 {% block body_javascripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const sliderImage = document.querySelector('.slider-element img');
 
+  if (window.innerWidth <= 768) {
+    sliderImage.src = '/assets/img/parlamento/03_SLIDER/CL_MOVIL.png';
+  }
+
+  window.addEventListener('resize', () => {
+    sliderImage.src = window.innerWidth <= 768
+      ? '/assets/img/parlamento/03_SLIDER/CL_MOVIL.png'
+      : '/assets/img/parlamento/03_SLIDER/CL-01.png';
+  });
+});
+
+</script>
 {% endblock %}
