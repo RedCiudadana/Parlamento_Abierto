@@ -181,19 +181,19 @@ span{
 }
 
 ::selection {
-  background: #1abc9c;
+  background: #336EB3;
   color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #1abc9c; /* Firefox */
+  background: #336EB3; /* Firefox */
   color: #fff;
   text-shadow: none;
 }
 
 ::-webkit-selection {
-  background: #1abc9c; /* Safari */
+  background: #336EB3; /* Safari */
   color: #fff;
   text-shadow: none;
 }
@@ -19558,7 +19558,7 @@ label.checkbox {
 
 .redes a:hover{
 
-  color: #03ac8a;
+  color: #336EB3;
 
 }
 
@@ -19623,7 +19623,7 @@ label.checkbox {
 .linea-verde{
   height: 5px;
   width: 100%;
-  border-bottom: 1px solid #356eb2;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
 }
 
@@ -19670,7 +19670,7 @@ label.checkbox {
 }
 
 .btn:hover{
-  background-color: #2e5f99;
+  background-color: #02324F;
 }
 
 /* Puntos de interes del slider */
@@ -19937,4 +19937,15 @@ label.checkbox {
 
 .cuadro_recurso2 p{
  margin-bottom: 10px;
+}
+
+.redes_v2 a i{
+  font-size: 30px;
+  color: #14415a;
+  margin-right: 10px;
+  transition: 0.5s all ease;
+}
+
+.redes_v2 a i:hover{
+  color: #336EB3;
 }
